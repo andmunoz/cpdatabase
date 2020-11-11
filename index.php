@@ -115,13 +115,13 @@
         <li><a href="?page=datafortress">Fortalezas</a></li>
     </ul>        
     <ul id="complements" class="dropdown-content">
-        <li><a href="https://drive.google.com/drive/folders/0B9dJWyUnySwmZlBXUXpZNEF2clk?usp=sharing" target="_blank">Hojas</a></li>
-        <li><a href="https://drive.google.com/drive/folders/0B9dJWyUnySwmU1BqMF9WbWhXRVE?usp=sharing" target="_blank">Documentos</a></li>
+        <li><a href="https://drive.google.com/file/d/1d6tPpfJDF9v28cGOOsG2EzyheMFUsINa/view?usp=sharing" target="_blank">Plantilla PDF</a></li>
+        <li><a href="https://drive.google.com/drive/folders/0B9dJWyUnySwmYkZmbzhXX3BIaU0?usp=sharing" target="_blank">Documentos</a></li>
         <li class="divider"></li>
         <li><a href="https://docs.google.com/document/d/1_Y31F8AXFE2vDgMcW3scp05SL1aOEIvBkyRFfT51n1I/edit?usp=sharing" target="_blank">Darkpunk 2026</a></li>
-        <li class="divider"></li>
+        <!-- li class="divider"></li>
         <li><a href="lite" target="_blank">Sitio Lite</a></li>
-        <li><a href="includes/export_full.php?format=json">Json Firebase</a></li>
+        <li><a href="includes/export_full.php?format=json">Json Firebase</a></li -->
     </ul>        
 
     <!-- BODY -->
