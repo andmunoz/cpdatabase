@@ -52,27 +52,6 @@
 
 <body>
 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use -->
-    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-database.js"></script>
-
-    <script>
-       // Your web app's Firebase configuration
-       var firebaseConfig = {
-         apiKey: "AIzaSyD3LUVINjIt9XAHvMZyXojbqGv-EXrKeUk",
-         authDomain: "cyberpunk-database.firebaseapp.com",
-         databaseURL: "https://cyberpunk-database.firebaseio.com",
-         projectId: "cyberpunk-database",
-         storageBucket: "cyberpunk-database.appspot.com",
-         messagingSenderId: "492371389033",
-         appId: "1:492371389033:web:03dc0c1000b49c6b5350f8"
-       };
-       // Initialize Firebase
-       firebase.initializeApp(firebaseConfig);
-    </script>
-
     <!-- HEADER -->
     <nav>
         <div class="nav-wrapper">
