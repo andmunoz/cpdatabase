@@ -359,14 +359,14 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/No-Photo.jpg" width="200">
+                            <img src="lite/images/Roles.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
-                                <p>Hojas de personajes, vehículos, barrios virtuales y otros.</p>
+                                <p>Hoja de personajes (PDF)</p>
                             </div>
                             <div class="card-action">
-                                <a href="https://drive.google.com/drive/folders/0B9dJWyUnySwmZlBXUXpZNEF2clk?usp=sharing" target="_blank">Hojas</a>
+                                <a href="https://drive.google.com/file/d/1d6tPpfJDF9v28cGOOsG2EzyheMFUsINa/view?usp=sharing" target="_blank">Hoja de Personaje</a>
                             </div>
                         </div>
                     </div>
@@ -374,14 +374,14 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/No-Photo.jpg" width="200">
+                            <img src="lite/images/Documents.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
                                 <p>Manuales y documentos para el juego.</p>
                             </div>
                             <div class="card-action">
-                                <a href="https://drive.google.com/drive/folders/0B9dJWyUnySwmU1BqMF9WbWhXRVE?usp=sharing" target="_blank">Documentos</a>
+                                <a href="https://drive.google.com/drive/folders/0B9dJWyUnySwmYkZmbzhXX3BIaU0?usp=sharing" target="_blank">Documentos</a>
                             </div>
                         </div>
                     </div>
@@ -395,7 +395,7 @@
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
-                                <p>Main Page de la Campaña Darkpunk 2026 (en curso).</p>
+                                <p>Players Handbook de la Campaña Darkpunk 2026 (en curso).</p>
                             </div>
                             <div class="card-action">
                                 <a href="https://docs.google.com/document/d/1_Y31F8AXFE2vDgMcW3scp05SL1aOEIvBkyRFfT51n1I/edit?usp=sharing" target="_blank">Darkpunk 2026</a>
