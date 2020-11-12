@@ -15,14 +15,14 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/No-Photo.jpg" width="200">
+                            <img src="images/folder_images/_No-Photo.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
                                 <p>Personajes Jugadores</p>
                             </div>
                             <div class="card-action">
-                                <a href="?page=players">Ver</a>
+                                <!-- a href="?page=players">Ver</a -->
                             </div>
                         </div>
                     </div>
@@ -30,14 +30,14 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/No-Photo.jpg" width="200">
+                            <img src="images/folder_images/_No-Photo.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
                                 <p>Personajes No Jugadores</p>
                             </div>
                             <div class="card-action">
-                                <a href="?page=npc">Ver</a>
+                                <!-- a href="?page=npc">Ver</a -->
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Roles.jpg" width="200">
+                            <img src="images/folder_images/Roles.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -76,7 +76,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Skills.jpg" width="200">
+                            <img src="images/folder_images/Habilidades.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -93,14 +93,14 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/No-Photo.jpg" width="200">
+                            <img src="images/folder_images/_No-Photo.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
                                 <p>Generador de vida pasada para Cyberpunk 2020.</p>
                             </div>
                             <div class="card-action">
-                                <a href="?page=lifepast">Vida Pasada</a>
+                                <!-- a href="?page=lifepast">Vida Pasada</a -->
                             </div>
                         </div>
                     </div>
@@ -108,14 +108,14 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/No-Photo.jpg" width="200">
+                            <img src="images/folder_images/_No-Photo.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
                                 <p>Maestro de costos para Cyberpunk 2020.</p>
                             </div>
                             <div class="card-action">
-                                <a href="?page=lifecost">Costos</a>
+                                <!-- a href="?page=lifecost">Costos</a -->
                             </div>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Weapon.jpg" width="200">
+                            <img src="images/folder_images/Armas.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -154,7 +154,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Armor.jpg" width="200">
+                            <img src="images/folder_images/Blindaje.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -171,7 +171,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Cyberware.jpg" width="200">
+                            <img src="images/folder_images/Ciberequipo.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -186,7 +186,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Chipware.jpg" width="200">
+                            <img src="images/folder_images/Chips.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -203,7 +203,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Wear.jpg" width="200">
+                            <img src="images/folder_images/Ropa.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -218,7 +218,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Gear.jpg" width="200">
+                            <img src="images/folder_images/Equipo.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -235,7 +235,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Vehicle.jpg" width="200">
+                            <img src="images/folder_images/Vehiculos.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -250,7 +250,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Drug.jpg" width="200">
+                            <img src="images/folder_images/Drogas.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -281,7 +281,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Terminal.jpg" width="200">
+                            <img src="images/folder_images/Terminales.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -296,7 +296,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Chipware.jpg" width="200">
+                            <img src="images/folder_images/Chips.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -313,7 +313,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Software.jpg" width="200">
+                            <img src="images/folder_images/Programas.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -328,14 +328,14 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/No-Photo.jpg" width="200">
+                            <img src="images/folder_images/_No-Photo.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
                                 <p>Generador de fortalezas virtuales para Cyberpunk 2020.</p>
                             </div>
                             <div class="card-action">
-                                <a href="?page=datafortress">Fortalezas</a>
+                                <!-- a href="?page=datafortress">Fortalezas</a -->
                             </div>
                         </div>
                     </div>
@@ -359,7 +359,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Roles.jpg" width="200">
+                            <img src="images/folder_images/Hojas.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -374,7 +374,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/Documents.jpg" width="200">
+                            <img src="images/folder_images/Documentos.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
@@ -391,7 +391,7 @@
                 <div class="col s6 m6">
                     <div class="card horizontal z-depth-3">
                         <div class="card-image">
-                            <img src="lite/images/No-Photo.jpg" width="200">
+                            <img src="images/folder_images/_No-Photo.jpg" width="200">
                         </div>
                         <div class="card-stacked">
                             <div class="card-content">
