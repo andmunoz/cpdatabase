@@ -1,6 +1,6 @@
 <?php
 
-    define("DBFILE", getcwd() . "/includes/data/Cyberpunk.db");
+    define("DBFILE", str_replace("/includes/includes", "/includes", getcwd() . "/includes/data/Cyberpunk.db"));
 
     function get_table($table_name, $columns = NULL, $conditions = NULL, $order_by = NULL, $distinct = NULL, $numbers = NULL) {
         $query = "SELECT " . ($distinct?"DISTINCT ":"") . ($columns?implode(',', $columns):"*")
