@@ -43,6 +43,15 @@
                . "            " . ($columns?"(" . implode(',', $columns) . ")":"")
                . "     VALUES " . implode(',', $values);
         echo $query;
+        $result = true;
+        try {
+            $db = new PDO('sqlite:' . DBFILE, null, null, array(PDO::ATTR_PERSISTENT => true));
+            $db = null;
+        } catch (Exception $ex) {
+            echo "<br/>Error message: " . $ex->getMessage() . " (" . DBFILE . ")";
+            $result = false;
+        }
+        return $result;
     }
 
     function put_table($table_name, $values, $conditions = NULL) {
@@ -50,12 +59,30 @@
                . "   SET " . implode(',', $values) 
                . ($conditions?" WHERE " . implode(',', $conditions):"");
         echo $query;
+        $result = true;
+        try {
+            $db = new PDO('sqlite:' . DBFILE, null, null, array(PDO::ATTR_PERSISTENT => true));
+            $db = null;
+        } catch (Exception $ex) {
+            echo "<br/>Error message: " . $ex->getMessage() . " (" . DBFILE . ")";
+            $result = false;
+        }
+        return $result;
     }
 
     function delete_table($table_name, $conditions = NULL) {
         $query = "DELETE " . $table_name
                . ($conditions?" WHERE " . implode(',', $conditions):"");
         echo $query;
+        $result = true;
+        try {
+            $db = new PDO('sqlite:' . DBFILE, null, null, array(PDO::ATTR_PERSISTENT => true));
+            $db = null;
+        } catch (Exception $ex) {
+            echo "<br/>Error message: " . $ex->getMessage() . " (" . DBFILE . ")";
+            $result = false;
+        }
+        return $result;
     }
 
 ?>
