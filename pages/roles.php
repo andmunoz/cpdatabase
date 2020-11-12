@@ -16,7 +16,6 @@
     <div class="col s12 m12 l12 right-align">
         <a href="includes/export.php?format=csv&data=Roles_View" target="_blank" class="waves-effect red waves-light btn"><i class="material-icons left">cloud_download</i>Exportar CSV</a>
         <a href="includes/export.php?format=json&data=Roles_View" target="_blank" class="waves-effect red waves-light btn"><i class="material-icons left">cloud_download</i>Exportar JSON</a>
-        <a href="includes/import.php?format=json&data=Roles" target="_blank" class="waves-effect red waves-light btn"><i class="material-icons left">cloud_upload</i>Importar CSV</a>
     </div>
 </div>
 <div class="row">

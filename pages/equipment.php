@@ -30,7 +30,6 @@
     <div class="col s12 m6 l8 right-align">
         <a href="includes/export.php?format=csv&data=<?php echo $class; ?>" target="_blank" class="waves-effect red waves-light btn"><i class="material-icons left">cloud_download</i>Exportar CSV</a>
         <a href="includes/export.php?format=json&data=<?php echo $class; ?>" target="_blank" class="waves-effect red waves-light btn"><i class="material-icons left">cloud_download</i>Exportar JSON</a>
-        <a href="includes/import.php?format=json&data=<?php echo $class; ?>" target="_blank" class="waves-effect red waves-light btn"><i class="material-icons left">cloud_upload</i>Importar CSV</a>
     </div>
 </div>
 <?php

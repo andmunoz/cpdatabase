@@ -38,4 +38,24 @@
         return get_table($table, NULL, "id = " . $id);
     }
 
+    function post_table($table_name, $columns = NULL, $values) {
+        $query = "INSERT INTO " . $table_name
+               . "            " . ($columns?"(" . implode(',', $columns) . ")":"")
+               . "     VALUES " . implode(',', $values);
+        echo $query;
+    }
+
+    function put_table($table_name, $values, $conditions = NULL) {
+        $query = "UPDATE " . $table_name
+               . "   SET " . implode(',', $values) 
+               . ($conditions?" WHERE " . implode(',', $conditions):"");
+        echo $query;
+    }
+
+    function delete_table($table_name, $conditions = NULL) {
+        $query = "DELETE " . $table_name
+               . ($conditions?" WHERE " . implode(',', $conditions):"");
+        echo $query;
+    }
+
 ?>
