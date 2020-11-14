@@ -104,9 +104,9 @@
     </ul>        
 
     <!-- BODY -->
-    <div class="container">
+    <!-- div class="container" -->
         <?php call_page($page_file); ?>
-    </div>
+    <!-- /div -->
 
     <!-- FOOTER -->
     <footer class="page-footer">

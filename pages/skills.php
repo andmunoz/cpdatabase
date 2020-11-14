@@ -1,5 +1,8 @@
 <?php
-    $data = get_table("Habilidades");
+    $order   = (isset($_GET["orderby"])?$_GET["orderby"]:false);
+    $data    = get_table("Habilidades", NULL, NULL, $order, true);
+    $base    = "page=skills";
+    $columns = array("Id", "Nombre", "Atributo", "Dificultad", "Descripcion");
 ?>
 <div class="row">
     <div class="col s12 m12 l12">
@@ -24,8 +27,8 @@
             <thead>
                 <?php
                     foreach ($keys as $key) {
-                        if ($key!="Id" && $key!="Version") {
-                            echo "<th>" . $key . "</th>\n";
+                        if (array_search($key, $columns)) {
+                            echo "<th>" . ($order == $key . " ASC"?"<a href=\"?" . $base . "&filter=" . $filter . "&orderby=" . $key . " DESC\">" . $key . "<i class=\"small material-icons\">arrow_drop_up</i></a>":"<a href=\"?" . $base . "&filter=" . $filter . "&orderby=" . $key . " ASC\">" . $key . "<i class=\"small material-icons\">arrow_drop_down</i></a>") . "</th>\n";
                         }
                     }
                 ?>
@@ -35,7 +38,7 @@
                     foreach ($data as $row) {
                         echo "<tr>\n";
                         foreach ($keys as $key) {
-                            if ($key!="Id" && $key!="Version") {
+                            if (array_search($key, $columns)) {
                                 echo "<td>" . $row[$key] . "</td>\n";
                             }
                         }

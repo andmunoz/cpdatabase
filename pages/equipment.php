@@ -1,10 +1,12 @@
 <?php
     $page    = $_GET["page"];
     $class   = $_GET["class"];
-    $filters = get_table($class . "_View", array("Categoria"), NULL, "Categoria", true);
+    $filters = get_table($class . "_View", array("Tipo"), NULL, "Tipo", true);
     $filter  = (isset($_GET["filter"])?$_GET["filter"]:false);
-    $data    = get_table($class . "_View", NULL, ($filter?array("Categoria = '" . $filter . "'"):NULL), NULL, false);
+    $order   = (isset($_GET["orderby"])?$_GET["orderby"]:false);
+    $data    = get_table($class . "_View", NULL, ($filter?array("Tipo = '" . $filter . "'"):NULL), ($order?$order:NULL), false);
     $base    = "page=" . $page . "&class=" . $class;
+    $columns = array("Id", "Nombre", "Tipo", "Categoria", "Disponibilidad", "Dano", "Peso", "Costo");
 ?>
 <div class="row">
     <div class="col s12 m12 l12">
@@ -20,12 +22,12 @@
             <?php
                 foreach ($filters as $f) {
                     ?>
-                        <option value="<?php echo $f["Categoria"]; ?>" <?php if ($filter == $f["Categoria"]) echo "selected"; ?>><?php echo $f["Categoria"]; ?></option>
+                        <option value="<?php echo $f["Tipo"]; ?>" <?php if ($filter == $f["Tipo"]) echo "selected"; ?>><?php echo $f["Tipo"]; ?></option>
                     <?php
                 }
             ?>
         </select>
-    <label>Filtro por Categoría:</label>
+    <label>Filtro por Tipo:</label>
     </div>
     <div class="col s12 m6 l8 right-align">
         <a href="includes/export.php?format=csv&data=<?php echo $class; ?>" target="_blank" class="waves-effect red waves-light btn"><i class="material-icons left">cloud_download</i>Exportar CSV</a>
@@ -42,8 +44,8 @@
             <thead>
                 <?php
                     foreach ($keys as $key) {
-                        if ($key!="Id" && $key!="Descripcion" && $key!="Version" && $key!="Marca" && $key!="Modelo" && $key!="Disimulo" && $key!="Calibre" && $key!="Balas" && $key!="VD" && $key!="Precision" && $key!="Alcance" && $key!="Requisito" && $key!="Ajustes" && $key!="CP" && $key!="PDE" && $key!="Velocidad_Maxima" && $key!="Aceleracion" && $key!="Desaceleracion" && $key!="Operacion_Dificultad" && $key!="Operacion_Duracion" && $key!="Operacion_Dano" && $key!="Operacion_Costo" && $key!="Implante_Costo") {
-                            echo "<th>" . $key . "</th>\n";
+                        if (array_search($key, $columns)) {
+                            echo "<th>" . ($order == $key . " ASC"?"<a href=\"?" . $base . "&filter=" . $filter . "&orderby=" . $key . " DESC\">" . $key . "<i class=\"small material-icons\">arrow_drop_up</i></a>":"<a href=\"?" . $base . "&filter=" . $filter . "&orderby=" . $key . " ASC\">" . $key . "<i class=\"small material-icons\">arrow_drop_down</i></a>") . "</th>\n";
                         }
                     }
                 ?>
@@ -54,7 +56,7 @@
                     foreach ($data as $row) {
                         echo "<tr>\n";
                         foreach ($keys as $key) {
-                            if ($key!="Id" && $key!="Descripcion" && $key!="Version" && $key!="Marca" && $key!="Modelo" && $key!="Disimulo" && $key!="Calibre" && $key!="Balas" && $key!="VD" && $key!="Precision" && $key!="Alcance" && $key!="Requisito" && $key!="Ajustes" && $key!="CP" && $key!="PDE" && $key!="Velocidad_Maxima" && $key!="Aceleracion" && $key!="Desaceleracion" && $key!="Operacion_Dificultad" && $key!="Operacion_Duracion" && $key!="Operacion_Dano" && $key!="Operacion_Costo" && $key!="Implante_Costo") {
+                            if (array_search($key, $columns)) {
                                 echo "<td>" . $row[$key] . "</td>\n";
                             }
                         }
@@ -83,7 +85,7 @@
                                                 </table>
                                             </div>
                                             <div class="col s6 m6 l6">
-                                                <img src="images/_No-Photo.jpg"/>
+                                                <img src="<?php echo get_image($class, $row["Id"]); ?>"/>
                                             </div>
                                         </div>
                                     </div>
