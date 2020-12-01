@@ -27,7 +27,7 @@
                 }
             ?>
         </select>
-    <label>Filtro por Tipo:</label>
+        <label>Filtro por Tipo:</label>
     </div>
     <div class="col s12 m6 l8 right-align">
         <a href="includes/export.php?format=csv&data=<?php echo $class; ?>" target="_blank" class="waves-effect red waves-light btn"><i class="material-icons left">cloud_download</i>Exportar CSV</a>

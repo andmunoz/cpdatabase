@@ -5,7 +5,7 @@
     $format = $_GET["format"];
     $table = $_GET["data"];
 
-    $data = get_table($table, NULL, NULL, "Nombre ASC");
+    $data = get_table($table, NULL, NULL, "Nombre ASC", NULL, true);
 
     if ($format == "json") {
         header ('Content-type: application/json');
